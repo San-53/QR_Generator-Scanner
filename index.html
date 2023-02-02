@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR_MAGIC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+</head>
+
+<body>
+
+    <!-- Header of the app -->
+
+    <div>
+        <header>
+            <div class="navbar">
+              <div class="logo">
+                <h2 style="color: aliceblue;">QR_Generator&Scanner</h2>
+              </div>
+              <div class="nav-links">
+                <ul>
+                  <li>
+                    <a href="https://github.com/San-53" target="_blank"><img src="tinywow_logo2_10866585.png" alt="" id="logo_img" />San_53</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </header>
+        <div class="total">
+            <div class="wrapper">
+                <header>
+                    <h1>QR code Generator</h1>
+                    <p style="color: rgb(32, 56, 59);font-size: large;">Paste a url or enter text to create QR code</p>
+                </header>
+                <div class="form">
+                    <input class="form_input" type="text" placeholder="Enter text or url">
+                    <button class="form_bt">Generate QR code</button>
+                </div>
+                <div class="qr-code">
+                    <img src="qrPic1.png" alt="qr-code">
+                </div>
+                <script src="script.js"></script>
+            </div>
+
+            <div class="wrapper_left">
+                <form action="#">
+                    <input type="file" hidden>
+                    <img src="" alt="qr-code">
+                    <div class="content">
+                        <i class='fa fa-cloud-upload'></i>
+                        <p class="upload_para">Upload QR code to scan</p>
+                    </div>
+                </form>
+                <div class="details">
+                    <textarea disabled></textarea>
+                    <div class="buttons">
+                        <button class="close">Close</button>
+                        <button class="copy">Copy Text</button>
+                    </div>
+                </div>
+                <script src="script1.js"></script>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
