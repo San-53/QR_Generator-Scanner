@@ -12,7 +12,7 @@ body {
   /* display: flex; */
   /* align-items:flex-end; */
   /* justify-content: space-around; */
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background-image: linear-gradient(to right, #7bd1e3, #69ccda, #57c7d0, #44c1c4, #31bcb8, #3abfb9, #42c3b9, #4ac6ba, #64d4c9, #7ce2d8, #93f1e7, #a9fff6);
   /* padding: 0 10px; */
 }
@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  max-height: 100vh;
   padding: 0 10px;
   margin-top: 0%;
 }
